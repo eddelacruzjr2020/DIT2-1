@@ -9,6 +9,5 @@ package Week5.Hybrid;
  * @author Edmundo Dela Cruz
  */
 public interface A {
-    public void displayingA();
-    
+    public void displayA();
 }

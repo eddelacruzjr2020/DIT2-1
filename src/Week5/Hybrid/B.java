@@ -9,6 +9,5 @@ package Week5.Hybrid;
  * @author Edmundo Dela Cruz
  */
 public interface B extends A{
-    public void displayingB();
-   
+    public void displayB();
 }

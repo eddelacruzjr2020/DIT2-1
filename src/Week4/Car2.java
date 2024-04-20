@@ -10,6 +10,7 @@ package Week4;
  */
 public class Car2 {
     
-    String make = "Toyota";
-    String model = "Corolla";
+    String model = "Civic";
+    String make = "Honda";
+
 }

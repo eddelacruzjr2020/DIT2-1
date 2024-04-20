@@ -24,7 +24,6 @@ public class SolarMain {
         System.out.println(s instanceof SolarSystem);
         System.out.println(e instanceof Earth);
         System.out.println(m instanceof SolarSystem);
-        System.out.println(mo instanceof SolarSystem);
         System.out.println(s instanceof Mars);
 }
     

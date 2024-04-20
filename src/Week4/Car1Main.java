@@ -14,7 +14,7 @@ public class Car1Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
         Car1 car1 = new Car1();
         System.out.println(car1.make);
         System.out.println(car1.model);

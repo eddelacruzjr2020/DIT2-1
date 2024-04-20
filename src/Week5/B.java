@@ -9,10 +9,7 @@ package Week5;
  * @author Edmundo Dela Cruz
  */
 public class B extends A{
-    
-    String b="Java";
-    
-    public void displayingB(){
+        public void displayB(){
         System.out.println("Displaying B");
     }
 }

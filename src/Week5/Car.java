@@ -11,13 +11,13 @@ package Week5;
 public class Car extends Vehicle{
     
     int numTires;
-    
     Car(String model, String make, int year, int numTires){
-        super(model, make, year);
+
+        super(make, model, year);
         this.numTires = numTires;
     }
     
-    //Getter and Setter
+    //Setter and Getter method
     public void setNumTires(int numTires){
         this.numTires = numTires;
     }
@@ -26,11 +26,11 @@ public class Car extends Vehicle{
         return numTires;
     }
     
-
+ 
     @Override
     public void viewDetails(){
         super.viewDetails();
-        System.out.println("Number of Tires:"+numTires);
+        System.out.println("Number of Tires: "+numTires);
     }
-   
+    
 }

@@ -10,8 +10,7 @@ package Week5;
  */
 public class C extends B{
     
-    public void displayingC(){
+    public void displayC(){
         System.out.println("Displaying C");
     }
-    
 }

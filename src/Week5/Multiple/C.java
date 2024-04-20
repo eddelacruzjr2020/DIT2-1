@@ -8,9 +8,20 @@ package Week5.Multiple;
  *
  * @author Edmundo Dela Cruz
  */
-public class C extends A {
+
+public class C implements A, B{
     
-    public void displayingC(){
+    @Override
+    public void displayA(){
+        System.out.println("Displaying A");
+    }
+    
+    @Override
+    public void displayB(){
+        System.out.println("Displaying B");
+    }
+    
+    public void displayC(){
         System.out.println("Displaying C");
     }
     

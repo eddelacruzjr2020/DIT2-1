@@ -14,17 +14,17 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+        // TODO code application logic here
 //        B b = new B();
-//        b.displayingA();
-//        b.displayingB();
-//        System.out.println(b.a);
-//        System.out.println(b.b);
-//        
+//        b.displayA();
+//        b.displayB();
 
           C c = new C();
-          c.displayingA();
-          c.displayingB();
-          c.displayingC();
+          c.displayA();
+          c.displayB();
+          c.displayC();
+       
     }
     
 }

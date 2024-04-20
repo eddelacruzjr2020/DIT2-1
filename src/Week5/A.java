@@ -10,10 +10,7 @@ package Week5;
  */
 public class A {
     
-    int a=10;
-    
-    public void displayingA(){
+    public void displayA(){
         System.out.println("Displaying A");
     }
-    
 }

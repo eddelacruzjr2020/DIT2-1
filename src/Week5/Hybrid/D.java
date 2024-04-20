@@ -11,23 +11,21 @@ package Week5.Hybrid;
 public class D implements B, C{
     
     @Override
-    public void displayingA(){
+    public void displayA(){
         System.out.println("Displaying A");
     }
     
     @Override
-    public void displayingB(){
+    public void displayB(){
         System.out.println("Displaying B");
     }
         
     @Override
-    public void displayingC(){
+    public void displayC(){
         System.out.println("Displaying C");
-    }
-        
+    }      
     
-    public void displayingD(){
+    public void displayD(){
         System.out.println("Displaying D");
     }
-    
 }

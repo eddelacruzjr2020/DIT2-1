@@ -14,9 +14,9 @@ public class Car3Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         Car3 car3 = new Car3("Honda", "Civic", 2024);
-        car3.viewCarDetails();
+        car3.vehicleDetails();
+        
     }
     
 }

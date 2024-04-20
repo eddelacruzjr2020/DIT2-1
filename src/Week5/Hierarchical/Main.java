@@ -16,18 +16,16 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         B b = new B();
-        b.displayingA();
-        b.displayingB();
-        
+        b.displayA();
+        b.displayB();
         
         C c = new C();
-        c.displayingA();
-        c.displayingC();
+        c.displayA();
+        c.displayC();
         
         D d = new D();
-        d.displayingA();
-        d.displayingD();
-        
+        d.displayA();
+        d.displayD();
     }
     
     
