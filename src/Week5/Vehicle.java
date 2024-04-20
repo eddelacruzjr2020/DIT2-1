@@ -13,15 +13,14 @@ public class Vehicle {
     String model;
     String make;
     int year;
-   
-    Vehicle(String model, String make, int year){
+
+    public Vehicle(String model, String make, int year){
         this.model = model;
         this.make = make;
         this.year = year;
     }
     
-    
-    //getter and setters
+    //Setter and Getter methods
     public void setModel(String model){
         this.model = model;
     }
@@ -47,8 +46,7 @@ public class Vehicle {
     }
     
     public void viewDetails(){
-        System.out.println("Your Vehicle Details as follows: \nModel: "+model+"\nMake: "+make+"\nYear: "+year);
+        System.out.println("Your Vehicle details are: \nMake: "+make+"\nModel: "+model+"\nYear: "+year);
     }
-    
-    
+
 }

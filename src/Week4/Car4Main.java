@@ -14,10 +14,11 @@ public class Car4Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         Car4 car4 = new Car4();
-        System.out.println("A is "+car4.a);
-        System.out.println("B is "+car4.b);
+        
+        System.out.println("Default Value:");
+        System.out.println("a = " + car4.a);
+        System.out.println("b = " + car4.b);
     }
     
 }

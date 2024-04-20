@@ -2,21 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package Week4;
+package Week5.Multiple;
 
 /**
  *
  * @author Edmundo Dela Cruz
  */
-public class Car3Main {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Car3 car3 = new Car3("Honda", "Civic", 2024);
-        car3.vehicleDetails();
-        
+        // TODO code application logic here
+        C c = new C();
+        c.displayA();
+        c.displayB();
+        c.displayC();
     }
     
 }

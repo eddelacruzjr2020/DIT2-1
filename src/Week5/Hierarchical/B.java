@@ -9,7 +9,9 @@ package Week5.Hierarchical;
  * @author Edmundo Dela Cruz
  */
 public class B extends A{
-    public void displayingB(){
+    
+    public void displayB(){
         System.out.println("Displaying B");
     }
+    
 }

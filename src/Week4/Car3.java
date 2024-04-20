@@ -9,43 +9,44 @@ package Week4;
  * @author Edmundo Dela Cruz
  */
 public class Car3 {
-    
-    String model;
+   
     String make;
+    String model;
     int year;
     
-    Car3(String model, String make, int year){
-        this.model = model;
+    Car3(String make, String model, int year){
         this.make = make;
-        this.year = year;   
-    }
-    
-    public void setModel(String model){
         this.model = model;
-    }
-    
-    public void setMake(String make){
-        this.make = make;
-    }
-        
-    public void setYear(int year){
         this.year = year;
+    }
+    
+    public String getMake(){
+        return make;
     }
     
     public String getModel(){
         return model;
     }
     
-    public String getMake(){
-        return make;
-    }
-        
     public int getYear(){
         return year;
+    }   
+    
+    public void setMake(){
+        this.make = make;
     }
     
-    public void viewCarDetails(){
-        System.out.println("Your car details are make: "+make+" \nModel: "+model+" \nYear: "+year);
-        
+    public void setModel(){
+        this.model = model;
+    }
+    
+    public void setYear(){
+        this.year = year;
+    }   
+    
+    public void vehicleDetails(){
+        System.out.println("Your vehicle is Make: "+make+" Model: "
+                + ""+model+
+                " Year: "+year);
     }
 }

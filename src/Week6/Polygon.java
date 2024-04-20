@@ -11,14 +11,15 @@ package Week6;
 public class Polygon {
     
     protected double width, height;
-    
-    Polygon(double width, double height){
+
+    public Polygon(double width, double height) {
         this.width = width;
         this.height = height;
     }
-    
-    public double calculateArea(){
-        return 0; //default implementation
+
+    public double calculateArea() {
+        return 0; // Default implementation, overridden by subclasses
+
     }
     
 }

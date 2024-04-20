@@ -8,7 +8,7 @@ package Week5.Hybrid;
  *
  * @author Edmundo Dela Cruz
  */
-public interface C extends A{
-    public void displayingC();
-    
+
+public interface C extends A {
+    public void displayC();
 }

@@ -8,14 +8,16 @@ package Week6;
  *
  * @author Edmundo Dela Cruz
  */
-public class Rectangle extends Polygon{
-       
+
+public class Rectangle extends Polygon {
+    
     Rectangle(double width, double height){
         super(width, height);
     }
     
     @Override
-    public double calculateArea(){
+    public double calculateArea() {
         return width * height;
     }
+
 }

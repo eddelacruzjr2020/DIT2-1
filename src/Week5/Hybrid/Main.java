@@ -16,10 +16,10 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         D d = new D();
-        d.displayingA();
-        d.displayingB();
-        d.displayingC();
-        d.displayingD();
+        d.displayA();
+        d.displayB();
+        d.displayC();
+        d.displayD();
     }
     
 }

@@ -14,24 +14,27 @@ public class CanteenMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+        //Student order 1
+        Canteen order1 = new Canteen();
+        order1.Order(1);
         
-        //Student 1
-        Canteen sO1 = new Canteen("Adobo");
-        sO1.canteenOrder(1);
+        //Student order 2
+        Canteen order2 = new Canteen("brown rice");
+        order2.Order(2);
         
-        //Student 2
-        Canteen sO2 = new Canteen("Brown Rice","Adobo");
-        sO2.canteenOrder(2);
+        //Student order 3
+        Canteen order3 = new Canteen("java rice", "Adobo");
+        order3.Order(3);
         
-        //Student 3
-        Canteen sO3 = new Canteen("Friend Rice", "Adobo", "Fried Chicken");
-        sO3.canteenOrder(3);
+        //Student order 4
+        Canteen order4 = new Canteen("java rice", "Adobo", "Sioma");
+        order4.Order(4);
         
-        //Student 4
-        Canteen sO4 = new Canteen("Friend Rice", "Adobo", "Fried Chicken", "Beer");
-        sO4.canteenOrder(4);
-        
-        
+        //Student order 5
+        Canteen order5 = new Canteen("java rice", "Adobo", "Sioma","ice cream");
+        order5.Order(5);
+
     }
     
 }

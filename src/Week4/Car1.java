@@ -9,12 +9,12 @@ package Week4;
  * @author Edmundo Dela Cruz
  */
 public class Car1 {
-    
-    String model = "honda";
-    String make ="civic";
+
+    String make = "Ferarri";
+    String model = "2024 Red";
     
     Car1(){
-        System.out.println("Constructor here");
+        System.out.println("Contructors from no-arg");   
     }
     
 }

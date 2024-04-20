@@ -9,7 +9,8 @@ package Week5.Hierarchical;
  * @author Edmundo Dela Cruz
  */
 public class A {
-    public void displayingA(){
+    
+    public void displayA(){
         System.out.println("Displaying A");
     }
 }
